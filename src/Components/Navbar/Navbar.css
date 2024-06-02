@@ -12,6 +12,17 @@ nav{
     z-index : 10 ;
 }
 
+.reg-nav{
+    width : 100% ;
+    /* background : #333 ; */
+    color : #fff ;
+    padding : 4px 0 ;
+    position : fixed ;
+    top : 0 ;
+    left : 0 ;
+    background : #212ea0 ;
+}
+
 .logo{
     width : 180px ;
 }
@@ -33,15 +44,33 @@ nav ul li{
 }
 
 /* media query */
+@media (max-width : 1200px){
+    .logo{
+        width : 140px ;
+    }
+    nav ul li{
+        margin : 10px 10px ;
+    }
+}
 
 @media (max-width : 1000px){
     .logo{
         width : 140px ;
     }
     nav ul li{
-        margin : 10px 15px ;
+        margin : 10px 5px ;
     }
 }
+
+@media (max-width : 990px){
+    .logo{
+        width : 140px ;
+    }
+    nav ul li{
+        margin : 10px 5px ;
+    }
+}
+
 
 @media (max-width : 860px ){
     nav{

@@ -1,0 +1,121 @@
+.login-nav{
+    background : #212ea0 ;
+    color : #fff ;
+}
+
+.container1{
+    color : #000 ;
+    position : absolute ;
+    top : 25% ;
+    left : 38% ;
+}
+
+.container1 h1{
+    display: inline-block ;
+    margin: 0 73px;
+    font-size : 4vw ;
+    border-bottom : 5px solid #212ea0 ;
+    margin-bottom : 2vw ;
+    padding-bottom : 13px 0 ;
+}
+
+.box{
+    width : 100% ;
+    border-bottom : 2px solid #212ea0 ;
+}
+
+.box input{
+    background : none ;
+    width : 75% ;
+    margin : 5px 23px ;
+    padding : 14px 10px ;
+    font-size : 20px ;
+    border : none ;
+    outline : none ;
+    color : white ;
+}
+
+/* .btn-prop{
+    margin : 13px 90px ;
+} */
+
+.para{
+    display : flex ;
+    color : #000 ;
+    gap : 5px ;
+}
+
+/* media query */
+
+@media (max-width : 1200px){
+    .container1 h1{
+        margin: 0 73px;
+        font-size : 11vw ;
+        margin-bottom : 5vw ;
+        padding-bottom : 13px 0 ;
+    }
+    #heading{
+        font-size : 46px ;
+        margin : 7px 93px ;
+    }
+}
+
+@media (max-width : 1000px){
+    .container1 h1{
+        margin: 0 73px;
+        font-size : 11vw ;
+        margin-bottom : 5vw ;
+        padding-bottom : 13px 0 ;
+    }
+    #heading{
+        font-size : 46px ;
+        margin : 7px 93px ;
+    }
+}
+
+@media (max-width : 860px){
+    .container1 h1{
+        margin: 0 73px;
+        font-size : 11vw ;
+        margin-bottom : 5vw ;
+        padding-bottom : 13px 0 ;
+    }
+    #heading{
+        font-size : 46px ;
+        margin : 7px 93px ;
+    }
+}
+
+@media (max-width : 600px){
+    .container1{
+        margin-left : -122px ;
+    }
+    #heading{
+        font-size : 46px ;
+        margin : 7px 93px ;
+    }
+}
+
+@media (max-width : 400px){
+    .container1{
+        margin-left : -122px ;
+    }
+
+    /* .container1 h1{
+        padding : 5vw 19vw ;
+        font-size : 4vh ; 
+    } */
+
+    #heading{
+        font-size : 46px ;
+        margin : 7px 93px ;
+    }
+    .para{
+        align-items : center ;
+        justify-content : center ;
+    }
+    .btn.dark-btn.btn-prop{
+        padding : 14px 40px ;
+    }
+
+}
